@@ -1,0 +1,23 @@
+body{
+	background-color:#e3e3e8;
+}
+#welcome{
+	font-family: sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #232426;
+}
+li{
+	display: inline;
+	padding: 35;
+	font-size: 25;
+	font-family: sans-serif;
+}
+a{
+	color:#e3e3e8;
+	text-decoration: none;
+}
