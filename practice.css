@@ -3,21 +3,45 @@ body{
 }
 #welcome{
 	font-family: sans-serif;
+	text-align: center;
 }
 
-ul{
+
+.Top-Menu{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	background-color: #232426;
+	height: 35px;
+	font-size: 20px;
+
 }
-li{
-	display: inline;
-	padding: 35;
-	font-size: 25;
+
+li.Top-Menu{
+	display: inline-flex; flex-wrap: wrap-reverse;
 	font-family: sans-serif;
+	width: 20%;
+	align-content: center;
+	padding-left: 5%;
+
 }
+
+.Side-Menu{
+	
+	margin: 0%;
+	padding-right: 0%;
+	background-color: #384f29;
+	width: 15%;
+}
+
+li.Side-Menu{
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	width: 95%;
+}
+
 a{
-	color:#e3e3e8;
 	text-decoration: none;
+	color:#e3e3e8;
 }
