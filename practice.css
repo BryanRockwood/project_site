@@ -7,7 +7,7 @@ body{
 }
 
 
-.Top-Menu{
+ul.Top-Menu{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,6 @@ li.Top-Menu{
 	width: 20%;
 	align-content: center;
 	padding-left: 5%;
-
 }
 
 .Side-Menu{
@@ -38,10 +37,43 @@ li.Side-Menu{
 	list-style-type: none;
 	font-family: sans-serif;
 	font-size: 20px;
-	width: 95%;
+	width: 85%;
+	border-right-style: groove;
+	border-right-width:10px;
+	border-bottom-width: 10px;
+	border-bottom-style: groove;
 }
 
 a{
 	text-decoration: none;
 	color:#e3e3e8;
+}
+
+p{
+	text-align: center;
+}
+
+/*
+footer{
+	margin: 0%;
+	padding: 0%;
+	background-color:  #1e211c;
+	width: auto;
+}
+*/
+ul.Footer-Links{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #232426;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+}
+
+li.Footer-Links{
+	display: inline-flex; flex-wrap: wrap-reverse;
+	font-family: sans-serif;
+	width: 10%;
+
 }
