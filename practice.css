@@ -1,4 +1,6 @@
 body{
+	margin: 0;
+	padding: 0;
 	background-color:#e3e3e8;
 	/*min-height: 100vh;
 	display: flex;*/
@@ -18,7 +20,32 @@ body{
   background-color: white;
   text-align: center;
 }
+.navbar{
+	background-color: #232426;
+	width: 100%;
+	top: 0;
+	margin: 0;
+	position: fixed;
+	overflow: hidden;
+	font-family: sans-serif;
 
+}
+.navbar	a{
+	
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: #e3e3e8;
+	text-align: center;
+	padding: .5% .5%;
+}
+
+.navbar a:hover{
+	color: black;
+	background-color: white;
+}
+
+/*
 ul.Top-Menu{
 	list-style-type: none;
 	margin: 0;
@@ -30,16 +57,26 @@ ul.Top-Menu{
 	top: 0;
 	position: fixed;
 
-}
 
+}
 li.Top-Menu{
-	display: inline-flex; flex-wrap: wrap-reverse;
+	display: inline-flex; 
+}
+li.Top-Menu a{
 	font-family: sans-serif;
 	width: 20%;
 	align-content: center;
 	padding-left: 2.5%;
 	padding-top: .75%;
+	text-decoration: none;
+	color: #e3e3e8;
 }
+li.Top-Menu a:hover{
+	background-color: whitesmoke;
+	color: black;
+}
+
+*/
 
 ul.Side-Menu{
 	
@@ -59,16 +96,27 @@ li.Side-Menu{
 	height: auto;
 	border-right-width:10px;
 	border-bottom-width: 10px;
+	border-radius: 10px;
 	/*border-bottom-style: groove;
 	border-right-style: groove;
 	padding-top: 20%;
 	*/
 }
+li.Side-Menu a{
+	text-decoration: none;
+	color:#e3e3e8;
+}
+li.Side-Menu:hover{
+	background-color: #425e30;
 
+}
+
+/*
 a{
 	text-decoration: none;
 	color:#e3e3e8;
 }
+*/
 
 p{
 	text-align: left;
