@@ -33,4 +33,44 @@ li.Top-Menu a:hover{
 	color: black;
 }
 
+
+
+ul.Footer-Links{
+	list-style-type: none;
+	margin: 0;
+	padding: 0%;
+	background-color: #232426;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+}
+
+ul.Footer-Links{
+	list-style-type: none;
+	margin: 0;
+	padding: 0%;
+	background-color: #232426;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+li.Footer-Links{
+	display: inline-flex; flex-wrap: wrap-reverse;
+	font-family: sans-serif;
+	width: 10%;
+	padding-top: .5%;
+
+}
+li.Footer-Links a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+li.Footer-Links a:hover{
+	color: black;
+	background-color: whitesmoke;
+}
+
+
 */
