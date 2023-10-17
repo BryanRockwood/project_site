@@ -2,8 +2,6 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color:#e3e3e8;
-	/*min-height: 100vh;
-	display: flex;*/
 	flex-direction: column;
 }
 #welcome{
@@ -78,13 +76,6 @@ li.Side-Menu:hover{
 
 }
 
-/*
-a{
-	text-decoration: none;
-	color:#e3e3e8;
-}
-*/
-
 p{
 	text-align: left;
 	font-family: sans-serif;
@@ -95,27 +86,23 @@ p{
 
 footer{
 	width: auto;
-	bottom: 0px;
-
+	height: auto;
 }
 
 .Footer-Links{
 	background-color: #232426;
 	width: 100%;
-	position: fixed;
-	overflow: hidden;
 	font-family: sans-serif;
-	margin: 0;
 	text-align: center;
+	margin: 0;
+
 
 }
 
-
 .Footer-Links	a{
-	display:inline-block;
+	display: inline-block;
 	text-decoration: none;
 	color: #e3e3e8;
-	
 	padding: .5% .5%;
 }
 
