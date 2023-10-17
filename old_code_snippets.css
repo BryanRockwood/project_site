@@ -1,0 +1,36 @@
+/*
+old code snippets
+
+
+old formatting for side menu
+ul.Top-Menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #232426;
+	height: 35px;
+	font-size: 15px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+
+
+}
+li.Top-Menu{
+	display: inline-flex; 
+}
+li.Top-Menu a{
+	font-family: sans-serif;
+	width: 20%;
+	align-content: center;
+	padding-left: 2.5%;
+	padding-top: .75%;
+	text-decoration: none;
+	color: #e3e3e8;
+}
+li.Top-Menu a:hover{
+	background-color: whitesmoke;
+	color: black;
+}
+
+*/
