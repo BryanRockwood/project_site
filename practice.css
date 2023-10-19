@@ -3,10 +3,20 @@ body{
 	padding: 0;
 	background-color:#e3e3e8;
 	flex-direction: column;
+
 }
 #welcome{
 	font-family: sans-serif;
 	text-align: center;
+}
+#mid_body_header{
+	font-family: sans-serif;
+}
+p{
+	text-align: left;
+	font-family: sans-serif;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 .grid-content{
 	display: grid;
@@ -14,9 +24,11 @@ body{
 	gap: 10px;
 	padding: 5%;
 
+
 }
 .grid-content > div {
   text-align: center;
+  min-height: 100vh;
 }
 
 .navbar{
@@ -38,34 +50,34 @@ body{
 	text-align: center;
 	padding: .5% .5%;
 }
-
+.navbar	a.active{
+	background-color: #bfb660;
+	color:black;
+}
 .navbar a:hover{
 	color: black;
 	background-color: white;
 }
 
+.navbar input[type=text]{
+	float: right;
+	border: none;
+}
+
 ul.Side-Menu{
-	
-	margin: 0%;
-	padding-right: 0%;
-	background-color: #384f29;
+	background-color: #313233;
 	width: auto;
 	height: 100%;
 	flex-direction:column;
-		border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 0;
 }
 
 li.Side-Menu{
 	list-style-type: none;
 	font-family: sans-serif;
-	font-size: 20px;
-	width: 85%;
-	height: auto;
+	font-size: 15px;
 	border-radius: 10px;
-	/*border-bottom-style: groove;
-	border-right-style: groove;
-	padding-top: 20%;
-	*/
 }
 li.Side-Menu a{
 	text-decoration: none;
@@ -74,13 +86,6 @@ li.Side-Menu a{
 li.Side-Menu:hover{
 	background-color: #425e30;
 
-}
-
-p{
-	text-align: left;
-	font-family: sans-serif;
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
 
@@ -95,7 +100,6 @@ footer{
 	font-family: sans-serif;
 	text-align: center;
 	margin: 0;
-
 
 }
 
