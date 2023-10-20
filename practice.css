@@ -12,6 +12,11 @@ body{
 #mid_body_header{
 	font-family: sans-serif;
 }
+#inputResult{
+	text-align: center;
+	font-size: 30px;
+}
+
 p{
 	text-align: left;
 	font-family: sans-serif;

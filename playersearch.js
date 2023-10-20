@@ -1,10 +1,7 @@
 const testArray = ['test', 'second'];
 
 function playerCompare(){
-	let player  = document.getElementById("playerA").value;
-//	const resultList = document.createElement('li')
-//	resultList.classList.add('result')
-//	resultList.appendChild(player)
-//	list.appendChild(resultList)
-	document.getElementById("inputResult").innerHTML = player;
+	let playerA  = document.getElementById("playerA").value;
+//	let playerB = document.getElementById("playerB").value;
+	document.getElementById("inputResult").innerHTML = playerA;
 }
