@@ -3,7 +3,7 @@
 <html>
 	<title> JS Portfolio </title>
 	<head>
-		<link rel="stylesheet" href="practice.css" 	>
+		<link rel="stylesheet" href="jspagecss.css" >
 
 	</head>
 	<body>
@@ -31,17 +31,22 @@
 				</p>
 				<br>
 				<p> 
+					Right now, I have a small scrpit that takes in two players and compares them against each other. At the moment I am simply using an array of values to serve as our data, and this tool searches the array for the two names and compares their "ranking" (read: index in the array) and returns the lower value of the two. Since rankings we usually want the "Number 1" option, we are looking for the lower number of the indices. 
 				</p>
 				<script src="playersearch.js"></script>
 				<div class="search_field">
 
 						Find a player..
 					<input type="text" id="playerA" placeholder="Search for a Player..">
+					vs. 
+					<input type="text" id="playerB" placeholder="Search for a Second Player..">
 					<button type="button" onclick="playerCompare()"> Compare</button>
 	
 				</div>
-				<p id="inputResult">
-				</p>
+				<div id="results">
+					<p id="inputResult"></p> 
+					<p id="inputResultB"></p>
+				</div>
 	
 
 

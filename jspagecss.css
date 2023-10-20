@@ -12,6 +12,15 @@ body{
 #mid_body_header{
 	font-family: sans-serif;
 }
+#inputResult{
+	text-align: center;
+	font-size: 30px;
+}
+#inputResultB{
+	text-align: center;
+	font-size: 30px;
+}
+
 
 p{
 	text-align: left;
@@ -116,3 +125,4 @@ footer{
 	background-color: whitesmoke;
 }
 
+	
