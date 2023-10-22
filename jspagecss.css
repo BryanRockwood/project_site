@@ -12,11 +12,11 @@ body{
 #mid_body_header{
 	font-family: sans-serif;
 }
-#inputResult{
+#AinputResult{
 	text-align: center;
 	font-size: 30px;
 }
-#inputResultB{
+#BinputResult{
 	text-align: center;
 	font-size: 30px;
 }

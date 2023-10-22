@@ -1,8 +1,8 @@
 const rankings= ['Josh Allen', 'Patrick Mahomes', 'Mac Jones', 'Jalen Hurts'];
-const resp = document.createElement("p");
-const textResp = document.createTextNode("test");
-//resp.appendChild(textResp);
-const newEle = document.getElementById("inputResult");
+
+//const resp = document.createElement("p");
+//const textResp = document.createTextNode("test");
+//const newEle = document.getElementById("AinputResult");
 
 
 
@@ -25,15 +25,21 @@ function playerCompare(){
 	}
 
 	if (playerAVal < playerBVal){
-		document.getElementById("inputResult").innerHTML = playerA;
-	} else {
-		document.getElementById("inputResult").innerHTML = playerB;
+		document.getElementById("AinputResult").innerHTML = playerA;
+	} else if (playerAVal > playerBVal){
+		document.getElementById("AinputResult").innerHTML = playerB;
 	}
-//	else{
-//
-//			newEle.appendChild(resp);
+	else{
+		let para = document.getElementById("AinputResult");
+		let error = "Not a valid comparison";
+		para.insertAdjacentText("afterbegin", error)
 
-//		}
+	//		resp.appendChild(textResp);
+
+	//		newEle = playerB
+
+		}
+
 }
 
 
