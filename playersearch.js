@@ -9,8 +9,8 @@ const rankings= ['Josh Allen', 'Patrick Mahomes', 'Mac Jones', 'Jalen Hurts'];
 function playerCompare(){
 	let playerA  = document.getElementById("playerA").value;
 	let playerB = document.getElementById("playerB").value;
-	let playerAVal = 0;
-	let playerBVal = 0;
+	let playerAVal = -1;
+	let playerBVal = -1;
 
 	
 	// loop through our rankings array to find names, and assign values to names
@@ -18,18 +18,24 @@ function playerCompare(){
 		
 		if (rankings[i].toString() === playerA){
 			playerAVal = i
-		}
+		} 
+//		else if(playerAVal === -1){
+//			playerAVal = playerBVal + 1
+//		}
+
 		if (rankings[i].toString() === playerB){
 			playerBVal = i
 		}
 	}
 
-	if (playerAVal < playerBVal){
+	if (playerAVal < playerBVal && playerAVal !== -1){
 		document.getElementById("AinputResult").innerHTML = playerA;
-	} else if (playerAVal > playerBVal){
+	} else if (playerAVal > playerBVal && playerBVal !== -1){
 		document.getElementById("AinputResult").innerHTML = playerB;
 	}
+
 	else{
+		document.getElementById("AinputResult").innerHTML = "";
 		let para = document.getElementById("AinputResult");
 		let error = "Not a valid comparison";
 		para.insertAdjacentText("afterbegin", error)
