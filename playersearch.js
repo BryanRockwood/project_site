@@ -28,17 +28,24 @@ function playerCompare(){
 		}
 	}
 
-	if (playerAVal < playerBVal && playerAVal !== -1){
+// check to see if either of the values is empty
+	if (playerAVal === -1 || playerBVal === -1){
+		document.getElementById("AinputResult").innerHTML = "";
+		let para = document.getElementById("AinputResult");
+		let error = "Did you Forget to Add a Player?";
+		para.insertAdjacentText("afterbegin", error)
+	}else if (playerAVal < playerBVal && playerAVal !== -1){
 		document.getElementById("AinputResult").innerHTML = playerA;
-	} else if (playerAVal > playerBVal && playerBVal !== -1){
+	}else if (playerAVal > playerBVal && playerBVal !== -1){
 		document.getElementById("AinputResult").innerHTML = playerB;
 	}
 
 	else{
 		document.getElementById("AinputResult").innerHTML = "";
-		let para = document.getElementById("AinputResult");
-		let error = "Not a valid comparison";
-		para.insertAdjacentText("afterbegin", error)
+		let para2 = document.getElementById("AinputResult");
+		let error2 = "Go with your gut";
+		para2.insertAdjacentText("afterbegin", error2)
+
 
 	//		resp.appendChild(textResp);
 

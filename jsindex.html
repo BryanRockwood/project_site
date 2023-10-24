@@ -50,9 +50,20 @@
 					<p>This next version of the tool allows the user to select a player after typing in the first few letters of their name. That's right, it's an auto-complete feature!
 					</p>
 				</div>
+				
+				<script src="autocomplete.js"></script>
+				<div class="search_field">
+
+						Find a player..
+					<input type="text" id="playerAAuto" placeholder="Search for a Player..">
+					vs. 
+					<input type="text" id="playerBAuto" placeholder="Search for a Second Player..">
+					<button type="button" onclick="autocompleteSearch()"> Compare</button>
 	
-
-
+				</div>
+				<div id="resultsAC">
+					<p id="ACResult"></p>
+				</div>
 
 
 	
