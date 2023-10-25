@@ -97,9 +97,12 @@ li.Side-Menu a{
 	text-decoration: none;
 	color:#e3e3e8;
 }
+li.Side-Menu a.active{
+	text-decoration: none;
+	color:#425e30;
+}
 li.Side-Menu:hover{
 	background-color: #425e30;
-
 }
 
 
